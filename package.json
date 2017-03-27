@@ -1,12 +1,12 @@
 {
   "name": "walle",
   "version": "1.0.0",
-  "description": "",
+  "description": "a slack bot for the Fam",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Quai Wentt",
   "license": "ISC",
   "dependencies": {
     "botkit": "^0.5.2"
