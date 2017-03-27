@@ -37,6 +37,12 @@ If my green light isn't on, that means Quai isn't running my server, so I can't 
 Have fun!`
     bot.reply(message, msg);
 });
+
+controller.hears(['show me a cute gif'], 'direct_message,direct_mention,mention', function(bot, message) {
+    bot.reply(message, "http://data.whicdn.com/images/141318272/large.gif");
+});
+
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
            ______     ______     ______   __  __     __     ______
           /\  == \   /\  __ \   /\__  _\ /\ \/ /    /\ \   /\__  _\
