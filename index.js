@@ -38,8 +38,13 @@ Have fun!`
     bot.reply(message, msg);
 });
 
-controller.hears(['show me a cute gif'], 'direct_message,direct_mention,mention', function(bot, message) {
-    bot.reply(message, "http://data.whicdn.com/images/141318272/large.gif");
+controller.hears(['show me a cute gif', 'show me another cute gif'], 'direct_message,direct_mention,mention', function(bot, message) {
+    var gifs = ["http://gph.is/Z0AR5o",
+     "http://data.whicdn.com/images/141318272/large.gif",
+     "https://media.giphy.com/media/rbmnvHKmS8shi/giphy.gif",
+     "https://media.giphy.com/media/10aZY3TPgp9Dws/giphy.gif",
+     "https://media.giphy.com/media/11jOAZXbHoyW7m/giphy.gif"]
+    bot.reply(message, gifs[Math.floor(Math.random() * gifs.length)]);
 });
 
 
