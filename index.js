@@ -26,7 +26,7 @@ walle.startRTM(function(err,bot,payload){
 });
 
 
-controller.hears(['help'], 'direct_message,direct_mention,mention', function(bot, message) {
+controller.hears(['help', 'who are you'], 'direct_message,direct_mention,mention', function(bot, message) {
     var msg = `I'm WALL-E, Quai's first slack bot. Quai is building me to show Slack :slack: how much she really really wants a job there. 
 Right now I respond to some simple keywords like \`hello\`. To say hello to me type \`@wall-e hello\` in a channel or simply \`hello\` in a direct message to me.
 
