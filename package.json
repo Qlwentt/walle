@@ -9,6 +9,12 @@
   "author": "Quai Wentt",
   "license": "ISC",
   "dependencies": {
-    "botkit": "^0.5.2"
+    "@google-cloud/vision": "^0.11.0",
+    "@slack/client": "^3.9.0",
+    "botkit": "^0.5.2",
+    "google-drive": "0.0.7",
+    "googleapis": "^18.0.0",
+    "unix-timestamp": "^0.2.0",
+    "wordpos": "^1.1.2"
   }
 }
