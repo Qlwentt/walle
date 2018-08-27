@@ -5,6 +5,7 @@ Walle-E is a slack bot built with Node.js and Botkit. Its main feature is that i
 
 ## Demo
 [see demo](https://cl.ly/3A3U0Q003O3s)
+**Please view in fullscreen to see what I'm typing**
 
 
 ![Screen shot](/slack_screenshot.png?raw=true "Screen shot")
